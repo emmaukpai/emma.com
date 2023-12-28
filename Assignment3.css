@@ -1,0 +1,318 @@
+*{margin: 0px;
+padding: 0px;
+}
+
+
+
+
+.wp-pusher{
+    /* border: 1px solid black; */
+  
+background:#F5F8FA;
+}
+
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    align-items: center;
+    background: #F5F8FA;
+  }
+
+    
+
+
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 42px;
+    width: 476px;
+height: 40px;
+top: 28px;
+left: 924px;
+
+}
+
+
+
+.panel{
+  position: relative;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+    margin-top: 0%;
+    width: 695px;
+    height: 400px;
+    top: 5px;
+    bottom: 5px;
+    /* left: 262px */
+    border-radius: 0px, 6px, 6px, 0px;
+    
+}
+
+.rectangle{
+  position: relative;
+    border: 1px solid black;
+    width: 1358px;
+    height: 2px;
+    top: 99px;
+    left: 42px;
+    /* #E0E6EA; */
+}
+
+
+  .basic h2{
+    width: 161px;
+    height: 54px;
+    flex-shrink: 0;
+    color:#050709;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .names{
+display: flex;
+gap: 20px;;
+  }
+  #firstname, #lastname{
+height: 30px;
+width: 230px;
+background-color:rgba(237, 239, 242, 1)
+
+  }
+  .ordinary {
+    position: absolute;
+    top: 0;
+    left: 470px;
+    margin-left: 30px;
+    /* right:700px; */
+    width: 180px;
+    height: 410px;
+    background-color: #1179BF;
+    color: white;
+    padding: 15px;
+    /* margin-right:286 ; */
+  }
+    .price-container {
+      display: inline-block;
+    }
+
+    .dollar-sign {
+      font-size: 1em; 
+      vertical-align:sub;
+      position: relative;
+      top: -0.5em;
+    }
+
+    .price-number {
+      font-size: 2em; 
+      font-weight:lighter;
+      vertical-align: middle;
+    }
+
+    .per-year {
+      font-size: 1em;
+      vertical-align: sub;
+      position: relative;
+      top: 0.2em;
+    }
+
+    .need{
+font-size: 8px;
+
+    }
+  .switch-plan{
+font-size: 12px;
+
+  }
+
+  #auto{
+    font-size: 12px;
+
+  }
+  
+  #support{
+    font-size: 12px;
+
+  }
+
+  .circle1{
+    border: 1px solid white;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .quote p {
+    display: block;
+
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .quote img,
+  .quote p:last-child {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .quote img {
+    margin-left: 10px;
+  }
+
+
+  .information div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color:white ;
+    border: 1px solid #1179BF;
+    border-radius: 50%;
+    color: #1179BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    /* font-weight: bold; */
+  }
+  
+  /* Additional style to align the text with the circle */
+  .information p {
+    margin: 0;
+  }
+  
+  .Submit {
+    margin-top: 10px;
+    width: 473px;
+    height: 52px;
+    background: #038E7D;
+    color: white; /* Add text color for better visibility on the background */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    font-size: 18px; /* Optional: Adjust font size */
+    cursor: pointer;
+  }
+  
+  /* Styles for labels and inputs to be on top of the input area and start from the left */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px;
+    align-self: flex-start;
+  }
+
+  .input-container input,
+  .input-container select 
+  {
+    border: none;
+    /* width: 100%; Make inputs fill the container */
+    padding: 8px;
+    box-sizing: border-box;
+    align-self: flex-start;
+    
+  }
+  
+  
+  .input-container #email {
+    border: none;
+    width: 300px;
+    height: 30px;
+   background-color:rgba(237, 239, 242, 1);
+    flex-shrink: 0;
+  }
+  
+  .card-input{
+    border:none;
+    height: 30px;
+    width: 405px;
+    background-color: rgba(237, 239, 242, 1);
+  }
+  
+  #cvc{
+width: 70px;
+
+  }
+
+  .brand{
+    height: 20px;
+    width: 200px;
+    margin-top: 10px ;
+  margin-left:130px ;
+  }
+
+.footer{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+#kirk{
+  top: 5px;
+display: flex;
+
+}
+.last-p{
+  top: 0px;
+  display: flex;
+margin-left: 300px;
+font-size: 11px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  ul {
+    gap: 42px;
+  }
+
+  .panel {
+    width: 695px;
+  }
+
+  .ordinary {
+    margin-left: 30px;
+  }
+
+  .price-container {
+    font-size: 1.2em;
+  }
+
+  .quote p {
+    font-size: 14px;
+  }
+
+  .Submit {
+    width: 473px;
+  }
+
+  .brand {
+    margin-left: 130px;
+  }
+
+  .last-p {
+    margin-left: 300px;
+
+    (max-width: 664px) {
+      .panel {
+        margin-top: 20px; /* Adjust the margin-top value as needed */
+      }
+  }
+}
